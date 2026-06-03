@@ -3,9 +3,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
-import AnimatedSection from "./animations/AnimatedSection";
-import StaggerContainer from "./animations/StaggerContainer";
-import StaggerItem from "./animations/StaggerItem";
+import AnimatedSection from "../shared/animations/AnimatedSection";
+import StaggerContainer from "../shared/animations/StaggerContainer";
+import StaggerItem from "../shared/animations/StaggerItem";
 
 const faqs = [
   {

@@ -1,8 +1,8 @@
 "use client";
 
 import { BookOpen, Building2, GraduationCap, Library, Microscope, Music } from "lucide-react";
-import Marquee from "./Marquee";
-import AnimatedSection from "./animations/AnimatedSection";
+import Marquee from "../shared/Marquee";
+import AnimatedSection from "../shared/animations/AnimatedSection";
 
 const schools = [
   { name: "SMKN 1 Jakarta", icon: Building2 },

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import AnimatedSection from "./animations/AnimatedSection";
+import AnimatedSection from "../shared/animations/AnimatedSection";
 
 const WHATSAPP_URL =
   "https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20program%20Website%20Sekolah%20Gratis";

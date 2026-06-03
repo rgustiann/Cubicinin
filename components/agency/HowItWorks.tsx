@@ -1,9 +1,9 @@
 "use client";
 
 import { Search, MessageSquare, Rocket } from "lucide-react";
-import AnimatedSection from "./animations/AnimatedSection";
-import StaggerContainer from "./animations/StaggerContainer";
-import StaggerItem from "./animations/StaggerItem";
+import AnimatedSection from "../shared/animations/AnimatedSection";
+import StaggerContainer from "../shared/animations/StaggerContainer";
+import StaggerItem from "../shared/animations/StaggerItem";
 
 const steps = [
   {

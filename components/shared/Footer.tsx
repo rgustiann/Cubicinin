@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const serviceLinks = [
   { label: "Website Sekolah Gratis", href: "/layanan/website-sekolah" },
-  { label: "Undangan Digital Premium", href: "#" },
-  { label: "Surat Digital", href: "#" },
+  { label: "Undangan Digital Premium", href: "/layanan/undangan-digital" },
+  { label: "Surat Digital", href: "/layanan/surat-digital" },
 ];
 
 export default function Footer() {

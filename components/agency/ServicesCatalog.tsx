@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Heart, MessageCircle } from "lucide-react";
 import Link from "next/link";
-import AnimatedSection from "./animations/AnimatedSection";
-import StaggerContainer from "./animations/StaggerContainer";
-import StaggerItem from "./animations/StaggerItem";
+import AnimatedSection from "../shared/animations/AnimatedSection";
+import StaggerContainer from "../shared/animations/StaggerContainer";
+import StaggerItem from "../shared/animations/StaggerItem";
 
 const services = [
   {
@@ -18,13 +18,13 @@ const services = [
     icon: Heart,
     title: "Undangan Digital Premium",
     desc: "Sebarkan momen bahagia Anda dengan elegan. Undangan pernikahan, akikah, dan acara spesial lainnya dalam bentuk digital yang memukau.",
-    href: "#",
+    href: "/layanan/undangan-digital",
   },
   {
     icon: MessageCircle,
     title: "Surat Digital (Confess/Ucapan)",
     desc: "Sampaikan perasaan tak terucap lewat halaman interaktif. Surat digital untuk confess, ucapan terima kasih, atau pesan spesial.",
-    href: "#",
+    href: "/layanan/surat-digital",
   },
 ];
 
